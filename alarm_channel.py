@@ -31,7 +31,7 @@ def monday():
       #print(name_string)
 
       if u"Bremer Grünkohl mit Kasseler & Salzkartoffeln" in name_string:
-        print(u"There will be Grünkohl on (" + day + ", " + date + ")")
+        #print(u"There will be Grünkohl on (" + day + ", " + date + ")")
         requests.get("bot<token>/METHOD_NAME" + "Diesen " + day + ", den " + date + u" gibt es Grünkohl " +  u"\U0001F389")
 
 
@@ -56,7 +56,7 @@ def tomorrow():
     #bot token: 746180339:AAFUwKyUohGWcsomj2trzHVLeP2VfPXNb78
     #chat id: -312656574
     #print("true")
-    print(u"There will be Grünkohl on (" + day + ", " + date + ")")
+    #print(u"There will be Grünkohl on (" + day + ", " + date + ")")
     requests.get("bot<token>/METHOD_NAME" + u"\U0000261D" + u"Morgen gibt's Grünkohl! (" + day + ", " + date + ")" + "'")
 
 #For today
@@ -80,7 +80,7 @@ def today():
     #print("There will be Gr&uumlnkohl today! (" + day + ", " + date + ")")
     #bot token: 746180339:AAFUwKyUohGWcsomj2trzHVLeP2VfPXNb78
     #chat id: -312656574
-    print(u"There will be Grünkohl on (" + day + ", " + date + ")")
+    #print(u"There will be Grünkohl on (" + day + ", " + date + ")")
     requests.get("bot<token>/METHOD_NAME" + u"\U0001F389" + u"Heute gibt's Grünkohl! (" + day + ", " + date + ")" + "'")
 
 monday();
